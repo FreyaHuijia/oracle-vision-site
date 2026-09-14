@@ -1,5 +1,5 @@
 const cover=document.querySelector('.trailer-cover');
-cover.addEventListener('click',()=>{cover.outerHTML='<iframe src="https://www.youtube-nocookie.com/embed/VQlZD7dZ1kw?autoplay=1&rel=0" title="Oracle Vision official trailer" allow="autoplay; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>'});
+cover.addEventListener('click',()=>{cover.outerHTML='<iframe src="https://www.youtube-nocookie.com/embed/up5rDw7Jx0w?autoplay=1&rel=0" title="Oracle Vision official trailer" allow="autoplay; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>'});
 document.querySelector('.watch').addEventListener('click',()=>cover.click(),{once:true});
 const track=document.querySelector('.gallery-track');let slide=0;const total=track.children.length;
 function show(n){slide=(n+total)%total;track.style.transform=`translateX(-${slide*100}%)`}
